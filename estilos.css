@@ -1,0 +1,38 @@
+*{
+  font-family: 'Open Sans';
+
+}
+
+figure img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 1em;
+}
+
+.head, footer {
+  top : -20px;
+  text-align: center;
+  background: #44403C;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: white;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-style: semibold;
+}
+/* footer {
+  text-align: center;
+  background: #44403C;
+  margin: 0;
+  padding: 0;
+  color: white;
+} */
+#poem{
+  background: #D6D3D1;
+  border-radius: 8px; 
+  text-align: center;
+}
