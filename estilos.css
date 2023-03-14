@@ -1,6 +1,6 @@
+@import url(reset.css);
 *{
-  font-family: 'Open Sans';
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 figure img {
@@ -8,21 +8,35 @@ figure img {
   max-height: 100%;
   width: auto;
   height: auto;
-  border-radius: 1em;
+  border-radius: 10px;
 }
 
+blockquote{
+  background: #D6D3D1;
+  border-radius: 8px; 
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  padding: 16px;
+  font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+}
 .head, footer {
-  top : -20px;
   text-align: center;
   background: #44403C;
   margin: 0;
-  padding: 0;
+  height: 68px;
+  padding: 16px;
+  font-style: semibold;
   width: 100%;
   color: white;
-  font-size: 2rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-style: semibold;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: semibold;
+  font-size: 30px;
+  line-height: 120%;
+  position: relative;
 }
 /* footer {
   text-align: center;
@@ -31,8 +45,39 @@ figure img {
   padding: 0;
   color: white;
 } */
-#poem{
-  background: #D6D3D1;
-  border-radius: 8px; 
-  text-align: center;
+main{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 48px 0px;
+gap: 10px;
+
+}
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  text-align: left;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+margin-top: 0;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  padding-left : 16px;
+  line-height: 40px;
+  margin-block-start: 0;
+
+  /*  */
+  width: 100%;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 32px;
 }
