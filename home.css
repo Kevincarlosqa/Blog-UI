@@ -1,0 +1,28 @@
+@import url(reset.css);
+.home__header{
+  grid-area: header;
+  background-color: blue;
+}
+.home__section1{
+  grid-area: section1;
+  background-color: red;
+}
+.home__section2{
+  grid-area: section2;
+  background-color: yellow;
+}
+.home__footer{
+  grid-area: footer;
+  background-color: black;
+}
+body{
+  height: 100vh;
+  display: grid;
+  grid-template: 162px 700px 1662px 290px /100%;
+  grid-template-areas: 
+  "header"  "section1" "section2" "footer";
+}
+body{
+  height: 100vh;
+  margin: 0;
+}
