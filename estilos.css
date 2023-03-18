@@ -19,8 +19,8 @@ blockquote{
   font-style: italic;
   padding: 16px;
   font-weight: 400;
-font-size: 18px;
-line-height: 32px;
+  font-size: 18px;
+  line-height: 32px;
 }
 .head, footer {
   text-align: center;
