@@ -1,76 +1,131 @@
-<!-- Happy coding -->
 <!DOCTYPE html>
 <html lang="en">
-  <!--language sirve para que los buscadores clasifiquen que la informacion esta en ingles o es
--->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilos.css">
-    <title>My Blog</title>
+    <link rel="stylesheet" href="assets/global.css" />
+    <title>Home</title>
   </head>
   <body>
-    <header class="head">HEADER</header>
-    <nav>
-      <ul>
-        <li>Articles</li>
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact me</li>
-      </ul>
-    </nav>
-    <main>
-      <h1>Lessons after 4 weeks learning to code</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit nunc
-      habitant lorem nunc. Nulla convallis eu pellentesque dolor. Morbi est
-      mauris posuere faucibus tincidunt vitae varius arcu. Ut aliquam tortor
-      consequat nec et sed viverra habitasse. Volutpat id a ut diam vitae amet
-      vitae mauris lacus. <strong>Pretium amet elementum</strong> diam vel urna, quis. Turpis
-      scelerisque eu nulla euismod est nisl. Eget amet, id porttitor auctor nunc
-      rhoncus.
-    </p>
-      <h2>The first two weeks</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit nunc
-      habitant lorem nunc. Nulla convallis eu pellentesque dolor. Morbi est
-      mauris posuere faucibus tincidunt vitae varius arcu. Ut aliquam tortor
-      consequat <a href="https://cssreference.io/typography/">some link</a> nec et sed viverra habitasse. Volutpat id a ut diam
-      vitae amet vitae mauris lacus. Pretium amet elementum diam vel urna, quis.
-      Turpis scelerisque eu nulla euismod est nisl. Eget amet, id porttitor
-      auctor nunc rhoncus.
-    </p>
-    <ul>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      <li>
-        Elit nunc habitant lorem nunc. Nulla convallis eu pellentesque dolor.
-      </li>
-      <li>Morbi est mauris posuere faucibus tincidunt vitae varius arcu.</li>
-    </ul>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit nunc
-      habitant lorem nunc. Nulla convallis eu pellentesque dolor. Morbi est
-      mauris posuere faucibus tincidunt vitae varius arcu.
-    </p>
-   <blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit feugiat
-    in quis in sed tortor. Sit tortor, sagittis molestie laoreet sed..”</blockquote>
-
-  
-    <figure>
-      <img src="neil-rosenstech-_FpwbchiVls-unsplash.jpg" alt="" />
-      <figcaption>
-        <p>Image Description</p>
-      </figcaption>
-    </figure>
-    <h2>The last two weeks</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit nunc
-      habitant lorem nunc. Nulla convallis eu pellentesque dolor. Morbi est
-      mauris posuere faucibus tincidunt vitae varius arcu.
-    </p>
+    <header class="header">
+      <div class="container-lg">
+        <nav class="navbar">
+          <a href="#" class="navbar-logo text-decoration-none"
+            ><span class="heading-md semibold">Kevin Quispe</span></a
+          >
+          <ul class="navbar__links list-style-none">
+            <li>
+              <a href="#" class="link text-md semibold">Articles</a>
+            </li>
+            <li>
+              <a href="#" class="link text-md semibold">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="link text-md semibold">About</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="button button--primary button--sm text-decoration-none ml-1"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="section-md-padded bg-color-secondary-light">
+      <div class="container-lg">
+        <h2 class="heading-xl regular">
+          Hi! I’m <span class="semibold color-primary">Kevin</span>, full stack
+          developer looking for new adventures
+        </h2>
+        <p class="text-xl light">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget velit
+          risus tellus viverra luctus in odio amet. Quisque viverra integer
+          lectus euismod quisque adipiscing. Sed posuere sed bibendum mi orci,
+          commodo, quam. Sagittis, donec sit bibendum mi nisl semper sed.
+        </p>
+      </div>
+    </section>
+    <main class="section-md article-summary">
+      <div class="container-lg">
+        <div class="article-summary__header">
+          <h2 class="heading-lg semibold">Last Articles</h2>
+          <p class="text-lg">Thinks I have Learned lately</p>
+        </div>
+        <div class="article-summary__content">
+          <div class="article-summary__card">
+            <time datetime="2022-03-16" class="text-xs overline monospace"
+              >March 16, 2022</time
+            >
+            <h3 class="heading-md regular">Learning Ruby in 4 weeks</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper cursus at viverra netus mauris, fermentum felis. Amet
+              purus viverra urna, purus, quam vestibulum dignissim etiam eu.
+              Enim, facilisi donec est sollicitudin vulputate.
+            </p>
+            <a href="#" class="overline monospace color-primary-dark semibold text-decoration-none">
+              Read more
+            </a>
+          </div>
+          <div class="article-summary__card">
+            <time datetime="2022-03-16" class="text-xs overline monospace"
+              >March 16, 2022</time
+            >
+            <h3 class="heading-md regular">Learning Ruby in 4 weeks</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper cursus at viverra netus mauris, fermentum felis. Amet
+              purus viverra urna, purus, quam vestibulum dignissim etiam eu.
+              Enim, facilisi donec est sollicitudin vulputate.
+            </p>
+            <a href="#" class="overline monospace color-primary-dark semibold text-decoration-none">
+              Read more
+            </a>
+          </div>
+          <div class="article-summary__card">
+            <time datetime="2022-03-16" class="text-xs overline monospace"
+              >March 16, 2022</time
+            >
+            <h3 class="heading-md regular">Learning Ruby in 4 weeks</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper cursus at viverra netus mauris, fermentum felis. Amet
+              purus viverra urna, purus, quam vestibulum dignissim etiam eu.
+              Enim, facilisi donec est sollicitudin vulputate.
+            </p>
+            <a href="#" class="overline monospace color-primary-dark semibold text-decoration-none">
+              Read more
+            </a>
+          </div>
+          <div class="article-summary__card">
+            <time datetime="2022-03-16" class="text-xs overline monospace"
+              >March 16, 2022</time
+            >
+            <h3 class="heading-md regular">Learning Ruby in 4 weeks</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper cursus at viverra netus mauris, fermentum felis. Amet
+              purus viverra urna, purus, quam vestibulum dignissim etiam eu.
+              Enim, facilisi donec est sollicitudin vulputate.
+            </p>
+            <a href="#" class="overline monospace color-primary-dark semibold text-decoration-none">
+              Read more
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
     </main>
-    
-    <footer>FOOTER</footer>
+
+    <footer>
+      <div class="section-md-padded footer">
+        <h1 class="heading-xl semibold footer__content">Can I help You?</h1>
+        <button class="button button--primary">Get in Touch!</button>
+      </div>
+    </footer>
   </body>
 </html>

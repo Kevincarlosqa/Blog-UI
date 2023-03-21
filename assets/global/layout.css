@@ -50,6 +50,7 @@
 .section-padded,
 .section-md-padded{
   padding: 48px 0;
+  width: 100%;
 }
 
 .section-lg-padded{

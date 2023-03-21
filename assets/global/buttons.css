@@ -1,18 +1,20 @@
-@import url("assets/global/color.css");
-@import url("assets/global.css");
+/* @import url("assets/global.css"); */
 .button{
   border: none;
   border-radius: 0.5em;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
-  padding: 12px 16px;
-  line-height: 100%;
+  padding: 0.75rem 1rem;
+  line-height: 1rem;
   cursor:  pointer;
 
+  width: 86px;
+  height: 40px;
+  
   display: flex;
   gap: 0.3em;
-  align-content: center;
+  justify-content: center;
   align-items: center;
  }
 
@@ -82,9 +84,18 @@
 
  .button--sm{
   padding: 8px 12px;
-  font-size: 14px;
+  font-size: 0.875em;
+  width: 71px;
+  height: 30px;
  }
  .button--lg{
   padding: 14px 24px;
-  font-size: 18px;
+  font-size: 1.125em;
+  width: 4.44em;
+  height: 2.9em;
  }
+
+ .w-full{
+  width: 100%;
+}
+

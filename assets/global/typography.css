@@ -21,17 +21,17 @@ h6{
 
 .text-xl{
   font-size: 1.25rem;
-  line-height: 1.5rem;
+  line-height: 1.875rem;
 }
 
 .text-lg{
   font-size: 1.125rem;
-  line-height: 1.5rem;
+  line-height: 1.6875rem;
 }
 .text,
 .text-md{
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.25rem;
 }
 .text-sm{
   font-size: 0.875rem;
@@ -39,15 +39,15 @@ h6{
 }
 .text-xs{
   font-size: 0.75rem;
-  line-height: 1.5rem;
+  line-height: 1.125rem;
 }
-.overline{
+/* .overline{
   word-spacing: 0.125rem;
   transform: uppercase;
 }
 .mono{
   font-family: "Source Code Pro", monospace;
-}
+} */
 .heading-3xl{
   font-size: 4.5rem;
   line-height: 1rem;
@@ -58,15 +58,15 @@ h6{
 }
 .heading-xl{
   font-size: 3rem;
-  line-height: 1.2rem;
+  line-height: 3.625rem;
 }
 .heading-lg{
   font-size: 2.25rem;
-  line-height: 1.2rem;
+  line-height: 2.6875rem;
 }
 .heading-md{
   font-size: 1.875rem;
-  line-height: 1.2rem;
+  line-height: 2.25rem;
 }.heading-sm{
   font-size: 1.5rem;
   line-height: 1.2rem;
