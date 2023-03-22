@@ -9,7 +9,7 @@
   line-height: 1rem;
   cursor:  pointer;
 
-  width: 86px;
+  /* width: 86px; */
   height: 40px;
   
   display: flex;
@@ -85,7 +85,7 @@
  .button--sm{
   padding: 8px 12px;
   font-size: 0.875em;
-  width: 71px;
+  /* width: 71px; */
   height: 30px;
  }
  .button--lg{

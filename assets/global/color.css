@@ -91,11 +91,11 @@
   --secondary-dark: var(--stone-700);
   --secondary-darker: var(--stone-900);
 
-  --backgrund-lighter: var(--white);
-  --backgrund-light: var(--gray-50);
-  --backgrund: var(--gray-100);
-  --backgrund-dark: var(--gray-200);
-  --backgrund-darker: var(--gray-300);
+  --background-lighter: var(--white);
+  --background-light: var(--gray-50);
+  --background: var(--gray-100);
+  --background-dark: var(--gray-200);
+  --background-darker: var(--gray-300);
 
   --error: #F87171;
   --warning: #FCD34D;

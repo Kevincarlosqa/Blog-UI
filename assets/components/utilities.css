@@ -32,3 +32,13 @@
 .bg-color-secondary-light{
   background-color: var(--secondary-light);
 }
+
+.bg-color{
+  background-color: var(--background);
+}
+.bg-color-dark{
+  background-color: var(--background-dark);
+}
+.imagen{
+  border-radius: 8px;
+}
