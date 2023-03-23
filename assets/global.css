@@ -2,6 +2,7 @@
 @import url(global/reset.css);
 @import url(components/utilities.css);
 @import url(components/article.css);
+
 @import url(global/color.css);
 
 @import url(global/layout.css);
@@ -12,3 +13,4 @@
 @import url(global/typography.css);
 @import url(global/buttons.css);
 @import url("https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css");
+@import url(components/portfolio.css);

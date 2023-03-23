@@ -32,7 +32,9 @@
 .bg-color-secondary-light{
   background-color: var(--secondary-light);
 }
-
+.bg-color-lighter{
+  background-color: var(--background-lighter);
+}
 .bg-color{
   background-color: var(--background);
 }
@@ -41,4 +43,22 @@
 }
 .imagen{
   border-radius: 8px;
+}
+.portfolio-main-margin{
+  margin-bottom: 50px;
+}
+.about-main-margin{
+  margin-bottom: 38px;
+}
+.index-main-margin{
+  /* margin-bottom: 200px; */
+  /* overflow: auto; */
+}
+body{
+  position: relative;
+  padding-bottom: 12.5em;
+  min-height: 100vh;
+  /* display: grid;
+  min-height: 100vh;
+	grid-template-rows: auto 1fr auto; */
 }

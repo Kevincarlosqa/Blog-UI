@@ -6,8 +6,12 @@
   background-color: var(--secondary-light);
   width: 100%;
   padding-left: 1em;
-
+  /* position: fixed;
+  bottom: 0; */
   padding-right: 1em;
+  position: absolute;
+  bottom: 0;
+  /* margin-top: 50px; */
 }
 
 .footer__content{
