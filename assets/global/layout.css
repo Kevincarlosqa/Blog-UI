@@ -14,8 +14,8 @@
 }
 
 .container-lg{
-  max-width: 1024px;
-  padding: 0 16px;
+  max-width: 64rem;
+  padding: 0 1rem;
   margin: auto;
 }
 
