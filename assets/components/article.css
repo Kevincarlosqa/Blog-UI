@@ -56,3 +56,13 @@
   margin: auto;
   margin-top: 1rem;
 }
+
+/* ARTICLE PAGE */
+
+.article-page-section-padding{
+    padding: 1rem 0;
+    margin-top:1rem;
+}
+.article-p{
+  padding-top: 1rem;
+}
