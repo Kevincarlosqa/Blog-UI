@@ -34,3 +34,80 @@
   outline: 2px solid;
   outline-offset: 1px;
 }
+
+#menu-mobile,
+#toggle-close,
+#toggle-open{
+  display: none;
+  transform: scale(1.5);
+
+}
+@media only screen and (max-width: 430px)
+{
+  .navbar,
+  #toggle-close,
+  #toggle-open{
+    display:block;
+
+  }
+  .navbar__links{
+    flex-direction: column;
+    margin: 0;
+    padding: .5rem 0;
+    gap: .5rem;
+  }
+  .navbar__links li:last-child{
+    width: 100%;
+  }
+  .navbar__links li:last-child a{
+    margin: auto;
+  }
+  .expandable{
+    display: none;
+  }
+  /*Selector de hermanos generales*/
+  #menu-mobile:checked ~ .expandable{
+    display: flex;
+  }
+  .navbar-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #toggle-close,
+  #toggle-open{
+    position:absolute;
+    top: .6rem;
+    right: 1.3rem;
+    
+    color: var(--secondary-darker);
+    
+    transition: opacity 1s linear;
+  }
+  #menu-mobile:not(:checked) ~ * #toggle-close,
+  #menu-mobile:checked ~ * #toggle-open
+  {
+    /* display: none; */
+    opacity: 0;
+
+    animation: spin 1s linear;
+  }
+  @keyframes spin {
+    0%{
+      transform: rotate(0deg);
+    }
+    25%{
+      transform: rotate(90deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    75%{
+      transform: rotate(270deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+    
+  }
+}

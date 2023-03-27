@@ -3,18 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.9" />
     <link rel="stylesheet" href="assets/global.css" />
     <title>Home</title>
   </head>
   <body>
     <header class="header">
-      <div class="container-lg">
+      <div class="navbar-padding container-lg">
         <nav class="navbar">
-          <a href="index.html" class="navbar-logo text-decoration-none"
-            ><span class="heading-md semibold">Kevin Quispe</span></a
-          >
-          <ul class="navbar__links list-style-none">
+          <input type="checkbox" id="menu-mobile">
+          <a href="index.html" class="navbar-logo text-decoration-none">
+            <span class="heading-md semibold">Kevin Quispe</span>
+            <label for="menu-mobile" id="toggle-close">
+              <i class="ri-close-fill ri-sm"></i>
+            </label>
+            <label for="menu-mobile" id="toggle-open">
+              <i class="ri-menu-fill ri-sm"></i>
+            </label>
+          </a>
+          
+          
+          <ul class="expandable navbar__links list-style-none">
             <li>
               <a href="article.html" class="link text-md semibold">Articles</a>
             </li>
@@ -33,6 +42,7 @@
             </li>
           </ul>
         </nav>
+    
       </div>
     </header>
     <section class="section-md-padded bg-color-secondary-light">

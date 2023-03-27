@@ -60,3 +60,6 @@
 .section-xl-padded{
   padding: 144px 0;
 }
+.navbar-padding{
+  padding: .4rem 1rem;
+}
