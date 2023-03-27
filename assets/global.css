@@ -16,7 +16,7 @@
 @import url("https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css");
 @import url(components/portfolio.css);
 @import url(components/contact.css);
-
+@import url(global/input.css)
 /* html{
   width: 100%;
   height: 100%;

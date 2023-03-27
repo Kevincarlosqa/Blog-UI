@@ -1,0 +1,120 @@
+.input{
+  color: var(--gray-900);
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  padding: .5rem .75rem;
+  border-radius: 6px;
+  border: 1px solid var(--gray-700);
+  background-color: var(--white);
+}
+.input::placeholder{
+  color: var(--gray-500);
+  font-weight: 300;
+}
+.select:focus,
+.input:focus,
+.radio__input:focus{
+  outline: 3px solid var(--info);
+}
+/* .input:focus{
+  outline: none;
+  border: 1px solid var(--primary);
+  box-shadow: 0px 0px 4px var(--primary-light);
+} */
+.input:invalid{
+  border: 1px solid var(--error);
+  color: var(--error);
+}
+.input__icon{
+  position:absolute;
+  z-index: 1;
+  color: var(--gray-500);
+  top: 50%;
+  pointer-events: none;
+  left: .75rem;
+  transform: translate(0, -47%);
+}
+.input--with-icon{
+  position: relative;
+
+}
+.input__content{
+  position: relative;
+  padding-inline-start: 2.3rem;
+  padding-inline-end: .75rem;
+}
+.input--error{
+  border: 1px solid var(--error);
+}
+.input__message,
+.select__message{
+  display: block;
+  margin: .25rem 0;
+  font-size: .875rem;
+  line-height: 1.3125rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.input__message--help,
+.select__message--help{
+  color: var(--gray-500);
+}
+.input__message--error,
+.select__message--error{
+  color: var(--error);
+}
+.select{
+  color: var(--gray-700);
+  width: 100%;
+  padding: .5rem .75rem;
+  border-radius: .375rem;
+  background-color: var(--white);
+  border: 1px solid var(--gray-700);
+  cursor: pointer;
+  padding-right: 3rem;
+
+  appearance: none;
+  background-image: url(../../images/input-arrow.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: calc(100% - 16px);
+}
+.select--error{
+  border: 1px solid var(--error);
+}
+/* ========= Radio & Checkbox =========*/
+
+.radio__message{
+  display: block;
+  color: var(--gray-500);
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-weight: 300;
+}
+.radio{
+  display: flex;
+  gap: .5rem;
+  align-items: baseline;
+}
+.radio__input{
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  appearance: none;
+  border-radius: 50%;
+  border: 1px solid var(--gray-700);
+}
+.radio__input:checked{
+  border: 4px solid var(--primary);
+}
+.radio-group{
+  display: flex;
+  gap: 1rem;
+}
+.radio-group--vertical{
+  flex-direction: column;
+}
+.radio-group--horizontal{
+  flex-direction: row;
+}
