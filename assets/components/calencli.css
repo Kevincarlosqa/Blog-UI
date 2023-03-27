@@ -11,7 +11,12 @@
   gap: 2rem;
 }
 .project__main-item{
-  padding: 2.5rem 0;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+
+}
+.project-title{
+  line-height: .5rem;
 }
 .project__main-how{
   /* margin: 1rem auto; */
