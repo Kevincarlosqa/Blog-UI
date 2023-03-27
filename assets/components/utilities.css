@@ -120,3 +120,9 @@ figure{
 .margin-checkbox{
   margin-bottom: 1.5rem;
 }
+.margin-contact{
+  max-width: 64rem;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
