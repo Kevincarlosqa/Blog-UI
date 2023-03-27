@@ -24,6 +24,10 @@
   padding: 0 16px;
   margin: auto;
 }
+.container-input{
+  max-width: 640px;
+  margin: auto;
+}
 
 /* Sections */
 .section-sm{

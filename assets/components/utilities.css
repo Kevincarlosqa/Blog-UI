@@ -114,3 +114,9 @@ figure{
 .index-title{
   margin-bottom: 1rem;
 }
+.color-text{
+  color: var(--text);
+}
+.margin-checkbox{
+  margin-bottom: 1.5rem;
+}
