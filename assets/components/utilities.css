@@ -123,6 +123,7 @@ figure{
 .margin-contact{
   max-width: 64rem;
   padding: 0 1rem;
+  margin: 0 auto;
   margin-top: 1rem;
   margin-bottom: 2.5rem;
 }
